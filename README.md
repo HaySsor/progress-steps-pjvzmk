@@ -19,3 +19,5 @@ Twoje zadania:
 Punkty bonusowe:
 1. Dodaj animację wypełniania kolorem paska i okręgu z numerem akcji po kliknięciu "Dalej"
 2. Dodaj animację usuwania wypełnianiaW kolorem paska i okręgu z numerem akcji po kliknięciu "Wróć"
+
+live https://stackblitz.com/edit/progress-steps-pjvzmk?file=index.js
