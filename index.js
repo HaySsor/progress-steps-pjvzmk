@@ -12,10 +12,14 @@ let index = 0
 let progresBarIndex = 0
 
 function progress(){
+  if(index >= allCircle.length-1){
+    nextButton.classList.add('disabled')
+  }
   if(index >= allCircle.length){
     index = 4
     return index
   } else{
+    backButton.classList.remove('disabled')
     for(let i=0; i<allCircle.length;i++){
       allCircle[index].classList.add('done')
     }
@@ -36,10 +40,14 @@ function progressBar(){
 }
 
 function reversing(){
+ if(index === 1){
+   backButton.classList.add('disabled')
+ }
   if(index <= 0){
     index = 0
     return index
   }else{
+    nextButton.classList.remove('disabled')
     index--
     for(let i=0; i<allCircle.length;i++){
       allCircle[index].classList.remove('done')

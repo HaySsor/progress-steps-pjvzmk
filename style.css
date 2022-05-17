@@ -18,3 +18,14 @@ h1, h2 {
 .done{
   background-color: green;
 }
+
+.disabled{
+  background-color: gray;
+  border: none;
+  cursor: not-allowed;
+  color: white;
+}
+.disabled:hover{
+  background-color: gray;
+  border: none;
+}
